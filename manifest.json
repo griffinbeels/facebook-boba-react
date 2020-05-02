@@ -7,5 +7,5 @@
             "matches": ["https://www.facebook.com/*"],
             "js": ["extension/jquery-3.5.0.slim.js", "reaction-changer.js"]
         }
-    ]
+    ] 
 }
