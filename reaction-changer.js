@@ -48,7 +48,7 @@ function checkFeedUpdate(){
     // resize occurs whenever the user scrolls down or a comment loads
     // on a prexisting post
     currFeed.on('resize', function() {
-        switchAllicons()
+        switchAllIcons()
     });
 }
 
