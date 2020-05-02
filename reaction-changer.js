@@ -15,7 +15,7 @@ function getCareReacts() {
  * Care element with a png depicting Boba.
  */
 function replaceCareWithBoba() {
-    console.log("lolll")
+    console.log("lolll");
 }
 
 /**
@@ -45,7 +45,7 @@ function getDocHeight() {
 function scrollHandler(){
     if($(window).scrollTop() + $(window).height() == getDocHeight()) {
         alert("bottom!");
-        replaceCareWithBoba()
+        replaceCareWithBoba();
     }
 }
 
@@ -54,4 +54,3 @@ document.addEventListener('DOMContentLoaded', replaceCareWithBoba(), false);
 
 // Allow us to replace any further Care reacts with Boba reacts
 $(window).scroll(scrollHandler());
-

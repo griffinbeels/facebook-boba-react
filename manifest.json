@@ -4,8 +4,8 @@
     "manifest_version": 2,
     "content_scripts": [
         {
-            "matches": ["https://www.facebook.com/"],
-            "js": ["reaction-changer.js"]
+            "matches": ["https://www.facebook.com/*"],
+            "js": ["extension/jquery-3.5.0.slim.js", "reaction-changer.js"]
         }
     ]
 }
