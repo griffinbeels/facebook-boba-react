@@ -44,21 +44,6 @@ document.addEventListener('DOMContentLoaded', checkFeedUpdate(), false);
  * clay.js will detect a resize of the feed, and all Care react icons will be updated.
  */
 function checkFeedUpdate(){
-    // Determine what page the user is currently on
-    // var profileFeed = document.getElementsByClassName(profileFeedClass);
-    // var homeAndPageFeed = document.getElementById(homeAndPageFeedName); // name not id
-    // var searchFeed = document.getElementById()
-    // var currFeed;
-    // if (homeAndPageFeed != null){
-    //     // home page & specific group page
-    //     currFeed = new Clay(homeAndPageFeedId) // id not name
-    // } else if ()
-    
-    // else if (profileFeed != null){
-    //     currFeed = new Clay(profileFeedClass)
-    // } else{ // If we're not on a valid page, don't continue
-    //     return 
-    // }
     let currFeed = new Clay(fbContentId)
     // resize occurs whenever the user scrolls down or a comment loads
     // on a prexisting post

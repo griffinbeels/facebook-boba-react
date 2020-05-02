@@ -46,6 +46,7 @@ function switchFeedMultipleReacitons(){
 }
 
 function switchAllIcons(){
+    alert("ok")
     switchFeedMultipleReacitons()
     switchProfileComments()
     switchProfileLargeBox()
