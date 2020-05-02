@@ -17,8 +17,6 @@
  * @since  5/1/2020
  */
 
- import {switchAllIcons} from './change-icons'
-
 // Child of top-most div for Facebook feed content; id chosen arbitrarily,
 // but mainly because "content" makes sense as the id for the user's Facebook feed.
 let fbContentId = "#content"
