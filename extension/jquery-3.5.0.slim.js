@@ -11,6 +11,7 @@
  *
  * Date: 2020-04-10T15:07Z
  */
+
 ( function( global, factory ) {
 
 	"use strict";

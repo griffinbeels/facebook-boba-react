@@ -48,9 +48,3 @@ function scrollHandler(){
         replaceCareWithBoba();
     }
 }
-
-// Replace care reacts currently loaded
-document.addEventListener('DOMContentLoaded', replaceCareWithBoba(), false);
-
-// Allow us to replace any further Care reacts with Boba reacts
-$(window).scroll(scrollHandler());
