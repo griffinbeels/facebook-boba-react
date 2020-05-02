@@ -19,15 +19,6 @@
 
  import {switchAllicons} from './change-icons'
 
-// Specific Class / Id relevant for Facebook feeds
-// let profileFeedClass = "div.rq0escxv.l9j0dhe7.du4w35lb.d2edcug0.gile2uim.buofh1pr.g5gj957u.hpfvmrgz.aov4n071.oi9244e8.bi6gxh9e.h676nmdw.aghb5jc5"; // Profile
-// let homeAndPageFeedName = "contentArea"; // Home and group specific pages (e.g., Subtle Asian Traits)
-// let homeAndPageFeedId = "#contentArea";
-// let messengerFeedName = "js_1"; // Messenger
-// let messengerFeedId = "#js_1";
-// let searchFeedName = "browse_result_area"; // Search 
-// let searchFeedId = "#browse_result_area";
-
 // Child of top-most div for Facebook feed content; id chosen arbitrarily,
 // but mainly because "content" makes sense as the id for the user's Facebook feed.
 let fbContentId = "#content"
