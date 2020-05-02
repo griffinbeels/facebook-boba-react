@@ -40,23 +40,3 @@ function checkFeedUpdate(){
         switchAllIcons()
     });
 }
-
-// /**
-//  * Replaces all images contained in each provided
-//  * Care element with a png depicting Boba.
-//  */
-function replaceCareWithBoba() {
-    console.log("lolll");
-}
-
-// /**
-//  * Waits for all elements on the page to load, 
-//  * and retrieves all Care react elements based on
-//  * their aria label.
-//  * 
-//  * @returns {Array} Array containing all loaded Care react
-//  * elements 
-//  */
-function getCareReacts() {
-
-}
