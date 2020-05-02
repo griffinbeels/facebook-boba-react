@@ -2,10 +2,20 @@
     "name": "facebook-boba-react",
     "version": "1.0",
     "manifest_version": 2,
+    "background": {
+        "scripts": ["background.js"]
+    },
     "content_scripts": [
         {
             "matches": ["https://www.facebook.com/*"],
-            "js": ["extension/clay.js", "change-icons.js", "reaction-changer.js"]
+            "js": ["extension/clay.js", "change-icons.js", "reaction-changer.js"],
+            "all_frames": true
         }
-    ] 
+    ],
+    "permissions": [
+        "tabs"
+    ],
+    "web_accessible_resources": [
+        "img/*.png"
+    ]
 }
