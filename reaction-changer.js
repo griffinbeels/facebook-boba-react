@@ -17,8 +17,6 @@
  * @since  5/1/2020
  */
 
- import {switchAllicons} from './change-icons'
-
 // Specific Class / Id relevant for Facebook feeds
 // let profileFeedClass = "div.rq0escxv.l9j0dhe7.du4w35lb.d2edcug0.gile2uim.buofh1pr.g5gj957u.hpfvmrgz.aov4n071.oi9244e8.bi6gxh9e.h676nmdw.aghb5jc5"; // Profile
 // let homeAndPageFeedName = "contentArea"; // Home and group specific pages (e.g., Subtle Asian Traits)
@@ -48,7 +46,7 @@ function checkFeedUpdate(){
     // resize occurs whenever the user scrolls down or a comment loads
     // on a prexisting post
     currFeed.on('resize', function() {
-        switchAllicons()
+        switchAllIcons()
     });
 }
 
