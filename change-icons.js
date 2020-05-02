@@ -51,3 +51,5 @@ function switchAllIcons(){
     switchProfileLargeBox()
     switchIconOnProfile()
 }
+
+export {switchAllIcons}
