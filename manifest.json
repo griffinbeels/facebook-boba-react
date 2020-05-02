@@ -5,7 +5,7 @@
     "content_scripts": [
         {
             "matches": ["https://www.facebook.com/*"],
-            "js": ["extension/jquery-3.5.0.slim.js", "extension/ResizeSensor.js", "reaction-changer.js"]
+            "js": ["extension/clay.js", "reaction-changer.js"]
         }
     ] 
 }
