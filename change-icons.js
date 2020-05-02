@@ -45,21 +45,21 @@ function switchFeedMultipleReacitons(){
     changeByClassName("sx_0cb266", 20)
 }
 
-function setUpHoverChange(){
-    var like_buttons = document.getElementsByClassName("_77yo")
-    for (var i = 0; i < like_buttons.length; i++) {
-        console.log("yeet")
-        like_buttons.item(i).addEventListener("onmouseover", testfunc)
-    }
-}
+// function setUpHoverChange(){
+//     var like_buttons = document.getElementsByClassName("_77yo")
+//     for (var i = 0; i < like_buttons.length; i++) {
+//         console.log("yeet")
+//         like_buttons.item(i).addEventListener("onmouseover", testfunc)
+//     }
+// }
 
-function testfunc(){
-    console.log("hello")
-}
+// function testfunc(){
+//     console.log("hello")
+// }
 
 function switchAllIcons(){
     console.log(document.getElementsByClassName("_1oxj"))
-    setUpHoverChange()
+  //  setUpHoverChange()
     switchFeedMultipleReacitons()
     switchProfileComments()
     switchProfileLargeBox()
